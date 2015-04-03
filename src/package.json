@@ -1,0 +1,21 @@
+{
+  "name": "event-filter",
+  "version": "0.1.0",
+  "description": "Subscribes to all rabbitmq events",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ArtCoeur/event-filter.git"
+  },
+  "author": "Tim Rodger tim.rodger@gmail.com",
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "winston": "~0.8.3",
+    "rabbit.js": "~0.4.2",
+    "logstash-client": "~1.0.0"
+  },
+  "devDependencies": {
+    "should": "~4.3.0",
+    "mocha": "~2.0.1"
+  }
+}
