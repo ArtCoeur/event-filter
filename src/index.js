@@ -19,7 +19,7 @@ function doConnect(){
 
         var logstash = new Logstash({
             type: process.env.LOGSTASH_PORT_5000_TCP_PROTO, // udp, tcp, memory
-            host: process.env.LOGSTASH_PORT_5000_TCP_ADDR,
+            host: 'logstash',
             port: process.env.LOGSTASH_PORT_5000_TCP_PORT
         });
 
