@@ -9,13 +9,6 @@ var context = rabbitmq.createContext(
     'amqp://' + process.env.RABBITMQ_PORT_5672_TCP_ADDR + ':' + process.env.RABBITMQ_PORT_5672_TCP_PORT
 );
 
-logger.info('env' +
-' : proto: ' + process.env.LOGSTASH_PORT_5000_TCP_PROTO +
-' : addr: ' + process.env.LOGSTASH_PORT_5000_TCP_ADDR +
-' : port: ' + process.env.LOGSTASH_PORT_5000_TCP_PORT);
-
-
-
 context.on('ready', function() {
     logger.info('connected');
 
@@ -35,7 +28,7 @@ context.on('ready', function() {
                 log: 'trace'
             });
 
-            // send fact object to log stash not a string
+            // send fact object to es not a string
             client.index({
                 type: fact.name,
                 index: "facts",
