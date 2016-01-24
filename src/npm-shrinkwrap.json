@@ -122,7 +122,8 @@
           "dependencies": {
             "ms": {
               "version": "0.6.2",
-              "from": "ms@0.6.2"
+              "from": "ms@0.6.2",
+              "resolved": "https://registry.npmjs.org/ms/-/ms-0.6.2.tgz"
             }
           }
         },
@@ -520,7 +521,8 @@
           "dependencies": {
             "eventemitter2": {
               "version": "0.4.14",
-              "from": "eventemitter2@0.4.14"
+              "from": "eventemitter2@0.4.14",
+              "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.14.tgz"
             },
             "lazy": {
               "version": "1.0.11",
@@ -578,7 +580,8 @@
               "dependencies": {
                 "minimist": {
                   "version": "0.0.8",
-                  "from": "minimist@0.0.8"
+                  "from": "minimist@0.0.8",
+                  "resolved": "https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz"
                 }
               }
             },
