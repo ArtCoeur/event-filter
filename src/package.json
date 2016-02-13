@@ -9,7 +9,7 @@
   },
   "author": "Tim Rodger tim.rodger@gmail.com",
   "dependencies": {
-    "underscore": "~1.7.0",
+    "underscore": "^1.7.0",
     "winston": "~0.8.3",
     "rabbit.js": "~0.4.2",
     "logstash-client": "~1.0.0",
